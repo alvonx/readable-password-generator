@@ -12,6 +12,7 @@
 
 ## on local system
 - `git clone https://github.com/alvonx/readable-password-generator.git`
+- `cd readable-password-generator`
 - `pip install -r requirements.txt`
 - `uvicorn app.main:app --reload --host 0.0.0.0 --port 5000`
 - &nbsp;&nbsp;welcome message http://localhost:5000/
